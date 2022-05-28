@@ -3,7 +3,9 @@
 </div>
 <br>
 <form method="post" action="<?php echo base_url('home/proses_edit_data') ; ?>" >
+
 <input type="hidden" name="id" value="<?php echo $barang['id']; ?>">
+
   <div class="form-group row">
     <label for="nama" class="col-sm-2 col-form-label">Nama Barang</label>
     <div class="col-sm-5">

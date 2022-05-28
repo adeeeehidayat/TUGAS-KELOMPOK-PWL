@@ -3,7 +3,7 @@
         <div class="container-fluid">      
             <div class="card mb-4 bg-gray-200">
                     <div class="card-header py-3 bg-gray-900">
-                        <h6 class="m-0 font-weight-bold text-white">Data user
+                        <h6 class="m-0 font-weight-bold text-white">Data User
                         <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#exampleModal">
                         Tambah data
                         </button>
@@ -122,7 +122,7 @@
                     </div>
                     <div class="form-group">
                         <label>Tanggal lahir</label>
-                        <input type="date" name="ttl" class="form-control" value="<?php echo $usr['ttl']; ?>">
+                        <input type="date" name="harga" class="form-control" value="<?php echo $usr['ttl']; ?>">
                     </div>
                     <div class="form-group">
                         <label>Gambar</label>
